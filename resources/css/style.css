@@ -231,6 +231,10 @@ header .mobile {
   background-color: white;
 }
 
+.feature .content {
+  padding: 2.5rem;
+}
+
 .feature .image-container {
   width: 90%;
   height: 65%;
@@ -304,6 +308,7 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
@@ -348,9 +353,9 @@ header .mobile {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+.content quote {
   padding-right: 1.875rem;
-  font-family: "Palatino", serif;
+  font-family: "Palatino-Italic", serif;
   font-size: 1.875rem;
   line-height: 1.1;
   font-style: italic;
