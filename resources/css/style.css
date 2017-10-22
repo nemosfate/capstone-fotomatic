@@ -344,6 +344,9 @@ header .mobile {
 }
 
 /* Quotes Section */
+.center {
+  margin: 5rem 0rem;
+}
 
 #quotes-section {
   background-color: #f3f3f3;
@@ -353,7 +356,7 @@ header .mobile {
   padding: 5rem 0;
 }
 
-.content quote {
+span .quote {
   padding-right: 1.875rem;
   font-family: "Palatino-Italic", serif;
   font-size: 1.875rem;
