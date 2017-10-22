@@ -21,11 +21,15 @@ html {
 }
 
 .image-container {
+  height: 65%;
+  width: 90%;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .image-container img {
   display: block;
+  width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -233,17 +237,19 @@ header .mobile {
   margin: 0 auto;
 }
 
-.feature h2 {
+.feature .content h2 {
   padding-bottom: .5rem;
+  line-height: 1.2;
   font-size: 2.25rem;
+  font-family: "Roboto-Bold", sans-serif;
   font-weight: bold;
   color: #4a4a4a;
 }
 
 .feature h3 {
   font-size: 1rem;
+  font-family: "Roboto-Light", sans-serif;
   line-height: 1.2;
-  font-weight: 300;
   color: #4a4a4a;
 }
 
